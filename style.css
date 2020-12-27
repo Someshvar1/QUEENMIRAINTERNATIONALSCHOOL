@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding-top: 800px;
+    padding-top:0px;
     text-align: center;
 }
 img{
@@ -15,7 +15,7 @@ img{
 
     position: absolute;
     color: #FFFFFF;
-    bottom: 0;
+   margin-top:0px;
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
     width: 100%;
@@ -23,8 +23,13 @@ img{
     z-index: 9;
     
 }
-
-
+#album{
+padding-top:0px;
+    background-color: chartreuse;
+}
+marquee{
+background-color: white;
+}
 
 h1 {
 
@@ -44,9 +49,8 @@ h2 {
 
 #bio {
     font-family: 'Cinzel Decorative', cursive;
-    background-color: blue;
-
-    padding: 50px;
+background-color: aqua;
+   margin-top: 800px;
     text-align: center;
 }
 
@@ -57,37 +61,21 @@ p {
     font-size: 17px;
 }
 
-.parallax-inner {
-
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-
-}
 
 
 
-.menu {
-    position: fixed;
-    background: white;
-    width: 100%;
-    margin-top: 0px;
-    top: 0px;
-    z-index: 10;
-    
-}
+
+
 
 .links {
     display: inline;
     padding-left: 33px;
     padding-right: 25px;
-    font-family: fantasy;
+    font-family: sans-serif;
     font-size: 20px
 }
 .links:hover {
-    font-size: 25px;
-    text-decoration: underline;
+    font-size: 20px;
 }
 
 html {
@@ -96,17 +84,17 @@ html {
 
 a {
     text-decoration: none;
-    color: crimson;
-    text-shadow: 2px 2px gainsboro;
-}
-#album{
-    background-color: darksalmon;   
-}
-#video{
-  background-color: crimson;
+    color: white;
 }
 
+.article:hover {
+    color:fuchsia;
+}
 
+.my-Nav-bar{
+position: sticky;top:0;z-index: 99999;
+    margin: 0;
+}
 
 #contact
 {
@@ -124,6 +112,7 @@ background: firebrick;
 }
 .contact_1 a
 {
-    color: white;
+    color:white;
     text-shadow: none;
 }
+
