@@ -109,10 +109,24 @@ background: firebrick;
 .contact_1 h3
 {
     display: inline;
+    font-size: large;
 }
 .contact_1 a
 {
     color:white;
     text-shadow: none;
+}
+#video iframe{
+    margin:20px;
+}
+#video{
+   background-color: cyan;
+}
+#chatbot{
+    background-color: chocolate;
+}
+#chatbot iframe{
+   margin-top: 50px;
+    margin-bottom: 50px;
 }
 
