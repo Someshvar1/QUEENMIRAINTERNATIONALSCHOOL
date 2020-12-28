@@ -9,8 +9,21 @@ img{
     margin: 20px;
 }
 
-
-
+#award{
+    height:900px;
+    background-color: darkorange;
+}
+.movie_head{
+font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width:100%;
+    display: inline-block;
+}
+.movie_head i{
+float: right;
+}
 #welcome {
 
     position: absolute;
@@ -25,7 +38,7 @@ img{
 }
 #album{
 padding-top:0px;
-    background-color: chartreuse;
+    background-color: azure;
 }
 marquee{
 background-color: white;
