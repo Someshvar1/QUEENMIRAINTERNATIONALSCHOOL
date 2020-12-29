@@ -9,8 +9,9 @@ img{
     margin: 20px;
 }
 
+
 #award{
-    height:900px;
+    height:1000px;
     background-color: darkorange;
 }
 .movie_head{
@@ -106,9 +107,7 @@ a {
     color: white;
 }
 
-.article:hover {
-    color:fuchsia;
-}
+
 
 .my-Nav-bar{
 position: sticky;top:0;z-index: 99999;
@@ -129,6 +128,7 @@ background: firebrick;
 {
     display: inline;
     font-size: large;
+    text-decoration: none;
 }
 .contact_1 a
 {
@@ -148,4 +148,28 @@ background: firebrick;
    margin-top: 50px;
     margin-bottom: 50px;
 }
+.environment_li
+{
+  margin-top: 13px;
+}
 
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img
+{
+  border-radius: 25px;
+    width:400px;
+    height:400px;
+}
+
+.environment_li p
+{
+  margin-top:10px;
+}
+#new{
+background-color: darkorchid;
+}
